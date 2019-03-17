@@ -19,8 +19,12 @@ bullpen();
 
 $(".character").on("click", function() {
 	var clickedParent = $(this).parent().attr('id');
-	console.log(clickedParent);
+	var transferHtml = $("#clickedParent").html;
+	console.log(transferHtml);
+	$("#chosenViking").html.transferHtml;
+/*
 	$("#chosenViking").html($("#clickedParent").html);
+	*/
 
 })
 
