@@ -20,8 +20,8 @@ bullpen();
 $(".character").on("click", function() {
 	var clickedParent = $(this).parent().attr('id');
 	console.log(clickedParent);
-	$("#chosenViking").html($(#clickedParent).html);
-});
+	$("#chosenViking").html($("#clickedParent").html);
 
+})
 
 })
