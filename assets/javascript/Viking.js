@@ -17,9 +17,10 @@ function bullpen() {
 }
 bullpen();
 
-$(".character").click(function() {
-	$("#chosenViking").html(parent(this).html);
-
+$(".character").on("click", function() {
+	var clickedParent = $(this).parent().attr('id');
+	console.log(clickedParent);
+	$("#chosenViking").html($(#clickedParent).html);
 });
 
 
