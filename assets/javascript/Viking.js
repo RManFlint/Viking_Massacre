@@ -17,13 +17,18 @@ function bullpen() {
 }
 bullpen();
 
-$(".character").on("click", function() {
+$(".bullpen").on("click", function() {
+	/*
 	var clickedParent = $(this).parent().attr('id');
 	var transferHtml = $("#clickedParent").html;
 	console.log(transferHtml);
 	console.log(clickedParent);
 	$("#clickedParent").html = "";
-	$("#chosenViking").html(transferHtml);
+	*/
+	var character = $(this);
+    character.remove();
+
+    $("#chosenViking").append(character);
 	
 
 /*	$("#chosenViking").html($("#clickedParent").html);
