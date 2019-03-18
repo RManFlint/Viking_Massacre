@@ -21,9 +21,12 @@ $(".character").on("click", function() {
 	var clickedParent = $(this).parent().attr('id');
 	var transferHtml = $("#clickedParent").html;
 	console.log(transferHtml);
-	$("#chosenViking").html.transferHtml;
-/*
-	$("#chosenViking").html($("#clickedParent").html);
+	console.log(clickedParent);
+	$("#clickedParent").html = "";
+	/*$("#chosenViking").html(transferHtml);*/
+	
+
+/*	$("#chosenViking").html($("#clickedParent").html);
 	*/
 
 })
