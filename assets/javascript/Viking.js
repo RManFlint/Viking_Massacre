@@ -23,7 +23,7 @@ $(".character").on("click", function() {
 	console.log(transferHtml);
 	console.log(clickedParent);
 	$("#clickedParent").html = "";
-	/*$("#chosenViking").html(transferHtml);*/
+	$("#chosenViking").html(transferHtml);
 	
 
 /*	$("#chosenViking").html($("#clickedParent").html);
